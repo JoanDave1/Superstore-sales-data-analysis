@@ -27,7 +27,7 @@ The dataset contains transactional sales records from 2015 to 2018, covering mul
 
 * Region – Geographic region where the order was fulfilled
 
-* Product Category & Sub-category – Classification of products purchased
+* Product Category – Classification of products purchased
 
 * Sales Revenue – Total sales value generated per order
 
@@ -36,13 +36,18 @@ These fields provide a comprehensive view of customer behavior, product performa
 ## 3. Data Cleaning and Preparation
 ## 4. Exploratory Data Analysis
 ### 4.1 Regional Sales Performance
-The regional sales analysis reveals clear differences in revenue distribution across the Central, East, South, and West regions between 2015 and 2018. Overall, the West region consistently outperforms all other regions, generating the highest total revenue of $710,219.68, followed by the East region, generating $669,518.73. The Central and South regions lag behind, contributing about $400K and $300K respectively.
+The regional sales analysis reveals clear differences in revenue distribution across the Central, East, South, and West regions between 2015 and 2018. It also discloses regional sales across various product categories and customer segments. 
+
+Overall, the West region consistently outperforms all other regions, generating the highest total revenue of $710,219.68, followed by the East region, generating $669,518.73, both surpassing the average sales revenue across the four periods ($565,384). The Central and South regions lag behind, contributing about $400,000 and $300,000 respectively.
+
+<img width="152" height="94" alt="image" src="https://github.com/user-attachments/assets/dc723e04-6cae-45ba-9229-a115adcf4ea8" />
 
 A year-by-year breakdown shows that this pattern remains stable over time:
 
 2015: West and East regions lead with $145,907.96 and $127,652.82. 
 
-<img width="152" height="94" alt="image" src="https://github.com/user-attachments/assets/dc723e04-6cae-45ba-9229-a115adcf4ea8" />
+<img width="150" height="97" alt="image" src="https://github.com/user-attachments/assets/faf3413f-82eb-4e79-abaf-97a69724e128" />
+
 
 2016: East surpasses the West slightly, while South experiences a significant decrease.
 
@@ -58,9 +63,35 @@ A year-by-year breakdown shows that this pattern remains stable over time:
 
 Across all four years, the West consistently maintains the strongest upward trend, while the South remains the weakest performer despite minor improvements in 2017 and 2018. These trends suggest that regional market size and customer demand may be influencing revenue variations.
 
-### 4.2 Product Category & Sub-Category Performance
+Furthermore, results show that overall, Technology generates the highest sales revenue across all regions. A breakdown of the performance of each product category across the various regions is given as follows:
+
+* Furniture: This category generates over $200,000 as revenue in the West and the East regions. The South region remains the lowest sales generating region.
+
+<img width="150" height="97" alt="image" src="https://github.com/user-attachments/assets/78f98700-20d8-47a3-8c26-71c4a611242b" />
+
+* Office Supplies: This category generates the highest sales revenue is the West region with $217,466.51. The other regions generate revenue below $200,000, with South, once again, being the lowest performing region. 
+
+<img width="150" height="97" alt="image" src="https://github.com/user-attachments/assets/ac8236b2-de04-412e-b333-4ef6f7644e71" />
+
+* Technology: As stated above, this product category generates the highest sales value with a total of $827,455.87. However, East becomes the top performing region, followed by West, both surpassing the $200,000 bracket.
+
+<img width="150" height="97" alt="image" src="https://github.com/user-attachments/assets/b3deafd9-56ee-44df-be64-0f730a68ac70" />
+
+As regards the customer segments, the Consumer segment generates the highest sales revenue across the various regions. The West and East regions surpass the $300,000 bracket being the top performers for this particular segment. Corporate, which is the next-top performing segment generates more sales in the West ($220,018.28), all other regions generating sales below $200,000. Home Office, which happens to be the least performing segment also generates the most sales from the West region. All visualizations for the segments are provided below. 
+
+Consumer: 
+<img width="155" height="97" alt="image" src="https://github.com/user-attachments/assets/1984c0ff-0fb1-4472-8325-711f51d7e62f" />
+
+Corporate: 
+<img width="150" height="97" alt="image" src="https://github.com/user-attachments/assets/953a001a-af95-450c-b8aa-c81ee2416f69" />
+
+Home Office: 
+<img width="150" height="97" alt="image" src="https://github.com/user-attachments/assets/bf467ae5-2c2b-409e-b89e-54712621a2c3" />
+
+
+### 4.2 Product Category Performance
 
 ### 4.3 Customer Segment Performance
 
-## 5. Recommendations
+## 5. Findings & Recommendations
 ## 6. Conclusion
