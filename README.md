@@ -40,26 +40,25 @@ The regional sales analysis reveals clear differences in revenue distribution ac
 
 Overall, the West region consistently outperforms all other regions, generating the highest total revenue of $710,219.68, followed by the East region, generating $669,518.73, both surpassing the average sales revenue across the four periods ($565,384). The Central and South regions lag behind, contributing about $400,000 and $300,000 respectively.
 
-<img width="152" height="94" alt="image" src="https://github.com/user-attachments/assets/dc723e04-6cae-45ba-9229-a115adcf4ea8" />
+<img width="327" height="175" alt="image" src="https://github.com/user-attachments/assets/02470e46-8873-4a9e-ab49-25a3cc6a6f54" />
 
 A year-by-year breakdown shows that this pattern remains stable over time:
 
 2015: West and East regions lead with $145,907.96 and $127,652.82. 
 
-<img width="150" height="97" alt="image" src="https://github.com/user-attachments/assets/faf3413f-82eb-4e79-abaf-97a69724e128" />
-
+<img width="327" height="175" alt="image" src="https://github.com/user-attachments/assets/b911c1d7-e21c-40e2-a334-a239365c7028" />
 
 2016: East surpasses the West slightly, while South experiences a significant decrease.
 
-<img width="150" height="97" alt="image" src="https://github.com/user-attachments/assets/d69fcce5-7388-4b81-ab2d-b8f48406d2c2" />
+<img width="327" height="175" alt="image" src="https://github.com/user-attachments/assets/aa649e06-3d73-41aa-87eb-fd4e9cf76093" />
 
 2017: Both West and East show strong growth, with the West returning as the top performing region.
 
-<img width="150" height="97" alt="image" src="https://github.com/user-attachments/assets/f36d7b99-8785-4146-96cc-4ec06a5f8652" />
+<img width="327" height="175" alt="image" src="https://github.com/user-attachments/assets/9a3dec31-4511-4d2b-8957-85633ece74cf" />
 
 2018: West records its highest annual sales ($248,130.93), widening the gap between regions.
 
-<img width="150" height="97" alt="image" src="https://github.com/user-attachments/assets/7084ba98-e444-4345-8da3-708efd364378" />
+<img width="327" height="175" alt="image" src="https://github.com/user-attachments/assets/33c30fd8-1e52-4748-b34b-af982c40ea65" />
 
 Across all four years, the West consistently maintains the strongest upward trend, while the South remains the weakest performer despite minor improvements in 2017 and 2018. These trends suggest that regional market size and customer demand may be influencing revenue variations.
 
@@ -67,31 +66,89 @@ Furthermore, results show that overall, Technology generates the highest sales r
 
 * Furniture: This category generates over $200,000 as revenue in the West and the East regions. The South region remains the lowest sales generating region.
 
-<img width="150" height="97" alt="image" src="https://github.com/user-attachments/assets/78f98700-20d8-47a3-8c26-71c4a611242b" />
+<img width="327" height="175" alt="image" src="https://github.com/user-attachments/assets/9a1cc2e8-5a18-450e-b0e4-966172af138c" />
 
-* Office Supplies: This category generates the highest sales revenue is the West region with $217,466.51. The other regions generate revenue below $200,000, with South, once again, being the lowest performing region. 
+* Office Supplies: This category generates the highest sales revenue in the West region with $217,466.51. The other regions generate revenue below $200,000, with South, once again, being the lowest performing region. 
 
-<img width="150" height="97" alt="image" src="https://github.com/user-attachments/assets/ac8236b2-de04-412e-b333-4ef6f7644e71" />
+<img width="327" height="175" alt="image" src="https://github.com/user-attachments/assets/5aed674b-a244-419a-a449-7a86196aca5c" />
 
 * Technology: As stated above, this product category generates the highest sales value with a total of $827,455.87. However, East becomes the top performing region, followed by West, both surpassing the $200,000 bracket.
 
-<img width="150" height="97" alt="image" src="https://github.com/user-attachments/assets/b3deafd9-56ee-44df-be64-0f730a68ac70" />
+<img width="327" height="175" alt="image" src="https://github.com/user-attachments/assets/8b396128-1524-4dff-a503-a83e09ce658b" />
 
 As regards the customer segments, the Consumer segment generates the highest sales revenue across the various regions. The West and East regions surpass the $300,000 bracket being the top performers for this particular segment. Corporate, which is the next-top performing segment generates more sales in the West ($220,018.28), all other regions generating sales below $200,000. Home Office, which happens to be the least performing segment also generates the most sales from the West region. All visualizations for the segments are provided below. 
 
 Consumer: 
-<img width="155" height="97" alt="image" src="https://github.com/user-attachments/assets/1984c0ff-0fb1-4472-8325-711f51d7e62f" />
 
-Corporate: 
-<img width="150" height="97" alt="image" src="https://github.com/user-attachments/assets/953a001a-af95-450c-b8aa-c81ee2416f69" />
+<img width="327" height="175" alt="image" src="https://github.com/user-attachments/assets/6a451e79-a77e-4b5b-8e37-332f5d1b55ad" />
+
+Corporate:
+
+<img width="327" height="175" alt="image" src="https://github.com/user-attachments/assets/21c44d07-5edb-4e06-8969-7a2b06d13ea8" />
 
 Home Office: 
-<img width="150" height="97" alt="image" src="https://github.com/user-attachments/assets/bf467ae5-2c2b-409e-b89e-54712621a2c3" />
+
+<img width="327" height="175" alt="image" src="https://github.com/user-attachments/assets/6d089ef8-b1e0-442d-b6d5-03e8f29fbdcd" />
 
 
 ### 4.2 Product Category Performance
+The analysis of product categories shows clear differences in revenue contribution across the three main categories: Technology, Office Supplies, and Furniture. Technology products generate the highest revenue overall with a whooping $827,455.87. Furniture follows closely with $728,658.58. Office Supplies contributes the least revenue with a sum of $705,422.83. All of these are specified below.
+
+<img width="310" height="173" alt="image" src="https://github.com/user-attachments/assets/3424b886-5416-42a4-9a27-c589e10b9e72" />
+
+A year-by-year analysis shows that ths pattern continues in 2015, 2017 and 2018. 2016 and 2018 shows a slightly different result with Furniture exceeding Technology by almost $2,000 n 2016 and Office Supplies outperforming Furniture in 2018. 
+
+2015:
+
+<img width="310" height="173" alt="image" src="https://github.com/user-attachments/assets/b5e0435a-080b-46fc-8bb3-4351bdab15d6" />
+
+2016:
+
+<img width="310" height="173" alt="image" src="https://github.com/user-attachments/assets/d2bc8d93-a5b5-4597-9d02-00f856bd9bf7" />
+
+2017:
+
+<img width="310" height="173" alt="image" src="https://github.com/user-attachments/assets/b35f33df-b8f7-46ed-aabb-09a799ff04b0" />
+
+2018:
+
+<img width="310" height="173" alt="image" src="https://github.com/user-attachments/assets/2a60b25f-f2b3-4df5-ab5f-33ce7f7ded8d" />
+
+Despite Technology being the best performing category, the office supplies category seems to be the most preferred by customers or most popular as more than 50% of the total percentage of customers lean toward this category. In contrast to revenue performance, Technology happens to be the least popular product category. 
+
+<img width="322" height="247" alt="image" src="https://github.com/user-attachments/assets/fb3ff6b5-e061-4e84-8dc0-ffa1a4cf7919" />
 
 ### 4.3 Customer Segment Performance
+Customer segment analysis shows that the Consumer segment contributes the highest share of total revenue, followed by Corporate and Home Office customers.
+
+<img width="308" height="246" alt="image" src="https://github.com/user-attachments/assets/b383c3b1-94a8-45cf-b09e-b676f715e92e" />
+
+A year-by-year breakdown shows that the Consumer segment generates the highest revenue and also shows that the Consumer segment possesses the highest number of customers between 2015 and 2018. All are shown below. 
+
+2015:
+
+<img width="308" height="246" alt="image" src="https://github.com/user-attachments/assets/97370437-e93c-4982-a4f5-cd64f7f47af9" />
+
+<img width="192" height="81" alt="image" src="https://github.com/user-attachments/assets/3aac24ed-530e-467c-a15f-c7df3f7e29f1" />
+
+2016:
+
+<img width="308" height="246" alt="image" src="https://github.com/user-attachments/assets/9a17a1d7-c9a4-416e-98a1-d73c89cb2c9d" />
+
+<img width="192" height="81" alt="image" src="https://github.com/user-attachments/assets/e3735891-15b9-4782-868b-f8c21711c17b" />
+
+2017:
+
+<img width="308" height="246" alt="image" src="https://github.com/user-attachments/assets/df42e641-5360-492f-8c3d-7b17d794c52d" />
+
+<img width="192" height="81" alt="image" src="https://github.com/user-attachments/assets/761e0aea-6353-49d5-8643-1da5dab18a4c" />
+
+2018:
+
+<img width="308" height="246" alt="image" src="https://github.com/user-attachments/assets/2a759e12-9dff-4ade-be67-83906493d9ba" />
+
+<img width="192" height="81" alt="image" src="https://github.com/user-attachments/assets/db077568-cf1f-4454-b046-b0b057b48ac4" />
+
 
 ## 5. Findings & Recommendations
 ## 6. Conclusion
