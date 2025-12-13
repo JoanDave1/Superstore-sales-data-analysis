@@ -34,6 +34,20 @@ The dataset contains transactional sales records from 2015 to 2018, covering mul
 These fields provide a comprehensive view of customer behavior, product performance, and geographic market differences. The dataset is clean, structured, and suitable for time-series, categorical, and segmentation analysis.
 
 ## 3. Data Cleaning and Preparation
+Before analysis, the dataset was reviewed to ensure data quality and consistency. Although the Superstore dataset was largely clean and well-structured, several standard data validation and preparation steps were performed to confirm its suitability for analysis.
+
+### 3.1. Data Quality Checks
+
+#### Null value checks: 
+All relevant columns (order date, customer ID, region, customer segment, product category, sub-category, and sales revenue) were examined for missing values using Excel filters and Python (Pandas). No significant null values were found that would impact the analysis.
+
+<img width="211" height="366" alt="image" src="https://github.com/user-attachments/assets/74d65908-7172-4120-96d7-039dfa53463f" />
+
+#### Duplicate records: 
+The dataset was checked for duplicate rows in both Excel and Python to ensure that each transaction was recorded only once. No duplicate entries were detected.
+
+Overall, the dataset required minimal cleaning, allowing the analysis to focus primarily on uncovering sales patterns and performance drivers rather than data quality issues.
+
 ## 4. Exploratory Data Analysis
 ### 4.1 Regional Sales Performance
 The regional sales analysis reveals clear differences in revenue distribution across the Central, East, South, and West regions between 2015 and 2018. It also discloses regional sales across various product categories and customer segments. 
@@ -151,4 +165,19 @@ A year-by-year breakdown shows that the Consumer segment generates the highest r
 
 
 ## 5. Findings & Recommendations
+### 5.1. Regional Sales Performance:
+According to the analyses and visualizations above, between 2015 and 2018, the West region surpasses all other regions in terms of sales revenue. This could be due to a greater number of customers in the West compared to other regions. This is also evident in the year 2016 when East has a slightly higher population compared to West. 
+
+Across all regions, Technology also happens to be the most successful product category in terms of revenue, even generating greater revenue from the West region. Despite having the lowest number of customers compared to other product categories, Technology generates the most revenue and this could be linked to a significantly higher unit price for Technology, combined with the greater number of customers in the West. 
+
+The West region also emerges as the top performing region in the customer segment. 
+
+Overall, the level of positive performance from the West region can be traced primarily to the higher number of customers in this region compared to other regions. 
+
+#### Recommendations: 
+
+
+### 5.2. Product Category Performance: 
+
+
 ## 6. Conclusion
