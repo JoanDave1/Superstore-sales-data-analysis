@@ -168,14 +168,19 @@ A year-by-year breakdown shows that the Consumer segment generates the highest r
 ### 5.1. Regional Sales Performance:
 According to the analyses and visualizations above, between 2015 and 2018, the West region surpasses all other regions in terms of sales revenue. This could be due to a greater number of customers in the West compared to other regions. This is also evident in the year 2016 when East has a slightly higher population compared to West. 
 
-Across all regions, Technology also happens to be the most successful product category in terms of revenue, even generating greater revenue from the West region. Despite having the lowest number of customers compared to other product categories, Technology generates the most revenue and this could be linked to a significantly higher unit price for Technology, combined with the greater number of customers in the West. 
+Across all regions, Technology also happens to be the most successful product category in terms of revenue, even generating greater revenue from the West region. Despite having the lowest number of customers compared to other product categories, Technology generates the most revenue and this could be linked to a significantly higher unit price for Technology, combined with the greater number of customers in the West. The West and East could also be urban areas where high-value products like Technology are greatly demanded. 
 
-The West region also emerges as the top performing region in the customer segment. 
+The West region also emerges as the top performing region in the customer segment. Reasons for this could be identical to the reasons stated above. 
 
-Overall, the level of positive performance from the West region can be traced primarily to the higher number of customers in this region compared to other regions. 
+Overall, the level of positive performance from the West region can be traced primarily to the higher number of customers in this region compared to other regions amongst other factors
 
 #### Recommendations: 
-
+The following can be adopted to boost the performance of the South and Central regions;
+* Offer discounts on some of these high-value products that seem not be performing well in these regions.
+* Increase the promotion and availability of under-performing products in these regions.
+* Conduct surveys and hear directly from customers.
+* Increase supply of high-value product sub-categories.
+* Encourage regional partnerships to expand customer base
 
 ### 5.2. Product Category Performance: 
 
