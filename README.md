@@ -2,7 +2,10 @@
 
 ## 1. Introduction
 
-This project explores retail sales performance using the Superstore dataset, focusing on identifying the key factors that drive sales across different regions, customer segments, and product categories. By analyzing four years of sales data (2015–2018), the study aims to uncover patterns in customer purchasing behavior, regional market differences, and category-specific preferences. Understanding these variations is essential for developing data-driven strategies that can improve revenue, optimize product offerings, and strengthen decision-making.
+This project explores retail sales performance using the Superstore dataset, focusing on identifying the key factors that drive sales across different regions, customer segments, and product categories. By analyzing four years of sales data (2015–2018), the study aims to uncover patterns in customer purchasing behavior, regional market differences, and category-specific preferences. Understanding these variations is essential for developing data-driven strategies that can improve revenue, optimize product offerings, and strengthen decision-making. 
+
+In addition to using Python and Excel to conduct exploratory and descriptive analysis, this project also includes a time series forecasting component, where historical sales revenue patterns are used to predict sales revenue for the next 24 months (2019–2020). The forecasting analysis aims to provide insights into expected future sales trends and support data-driven planning and decision-making.
+
 ### 1.1 Objectives
 The primary objective of this project is to analyze sales performance across regions, customer segments, product categories, and sub-categories to understand:
 
