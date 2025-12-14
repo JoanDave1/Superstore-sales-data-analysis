@@ -42,9 +42,9 @@ Before analysis, the dataset was reviewed to ensure data quality and consistency
 ### 3.1. Data Quality Checks
 
 #### Null value checks: 
-All relevant columns (order date, customer ID, region, customer segment, product category, sub-category, and sales revenue) were examined for missing values using Excel filters and Python (Pandas). No significant null values were found that would impact the analysis.
+All relevant columns (order date, customer ID, region, customer segment, product category, sub-category, and sales revenue) were examined for missing values using Excel filters and Python (Pandas). No significant null values were found that would impact the analysis. Null values in postal code column were identified and corrected. 
 
-<img width="211" height="366" alt="image" src="https://github.com/user-attachments/assets/74d65908-7172-4120-96d7-039dfa53463f" />
+<img width="304" height="648" alt="image" src="https://github.com/user-attachments/assets/7f0decb4-8e76-4928-9113-f8ceff3c5db3" />
 
 #### Duplicate records: 
 The dataset was checked for duplicate rows in both Excel and Python to ensure that each transaction was recorded only once. No duplicate entries were detected.
@@ -186,6 +186,14 @@ The following can be adopted to boost the performance of the South and Central r
 * Encourage regional partnerships to expand customer base
 
 ### 5.2. Product Category Performance: 
+Analysis and visualization above disclose Technology to be the most successful product category overall despite having a lower customer base compared to other product categories. The product category "Office supplies", is revealed to have a much larger customer base compared to others. A number of reasons could cause this, some of which could include;
+* A significantly higher unit sales price for Technology products in comparison to other product categories.
+* Most customers might prioritize and invest more in Technology products, especially with the current need for tech in homes, offices and in day-to-day activities.
+* Fewer customers for Technology could make more frequent, larger purchases, which could significantly increase sales revenue.
+* Office supplies are most likely sold at cheaper prices per unit of product, hence its popularity among customers.
+* Office supplies could also be purchased and used much more frequently especially if there is a presence of a working class customer base.
+
+#### Recommendations:
 
 
 ## 6. Conclusion
