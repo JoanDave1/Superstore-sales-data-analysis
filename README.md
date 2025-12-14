@@ -113,7 +113,7 @@ The analysis of product categories shows clear differences in revenue contributi
 
 <img width="310" height="173" alt="image" src="https://github.com/user-attachments/assets/3424b886-5416-42a4-9a27-c589e10b9e72" />
 
-A year-by-year analysis shows that ths pattern continues in 2015, 2017 and 2018. 2016 and 2018 shows a slightly different result with Furniture exceeding Technology by almost $2,000 n 2016 and Office Supplies outperforming Furniture in 2018. 
+A year-by-year analysis shows that ths pattern continues in 2015, 2017 and 2018. 2016 and 2018 shows a slightly different result with Furniture exceeding Technology by almost $2,000 in 2016 and Office Supplies outperforming Furniture in 2018. 
 
 2015:
 
