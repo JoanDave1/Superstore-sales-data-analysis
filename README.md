@@ -178,8 +178,7 @@ The West region also emerges as the top performing region in the customer segmen
 Overall, the level of positive performance from the West region can be traced primarily to the higher number of customers in this region compared to other regions amongst other factors
 
 #### Recommendations: 
-The following can be adopted to boost the performance of the South and Central regions;
-* Offer discounts on some of these high-value products that seem not be performing well in these regions.
+The following can be adopted to boost the performance of the South and Central regions; 
 * Increase the promotion and availability of under-performing products in these regions.
 * Conduct surveys and hear directly from customers.
 * Increase supply of high-value product sub-categories.
@@ -194,6 +193,9 @@ Analysis and visualization above disclose Technology to be the most successful p
 * Office supplies could also be purchased and used much more frequently especially if there is a presence of a working class customer base.
 
 #### Recommendations:
+The following recommendations can be adopted to maintain and boost Technology's performance as well as the performance of other product categories;
+* Technology's revenue is mostly driven by high unit prices, therefore, while the idea of discounts is recommended, care should be taken, especially on high-value Technology products.
+* To improve Technology's revenue performance, 
 
 
 ## 6. Conclusion
