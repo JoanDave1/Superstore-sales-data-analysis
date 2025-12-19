@@ -185,17 +185,42 @@ The following can be adopted to boost the performance of the South and Central r
 * Encourage regional partnerships to expand customer base
 
 ### 5.2. Product Category Performance: 
-Analysis and visualization above disclose Technology to be the most successful product category overall despite having a lower customer base compared to other product categories. The product category "Office supplies", is revealed to have a much larger customer base compared to others. A number of reasons could cause this, some of which could include;
+Analysis and visualization above disclose Technology to be the most successful product category overall despite having a lower customer base compared to other product categories. The product category "Office supplies", is revealed to have a much larger customer base compared to others but generating the least sales revenue. A number of reasons could cause this, some of which could include;
 * A significantly higher unit sales price for Technology products in comparison to other product categories.
 * Most customers might prioritize and invest more in Technology products, especially with the current need for tech in homes, offices and in day-to-day activities.
 * Fewer customers for Technology could make more frequent, larger purchases, which could significantly increase sales revenue.
 * Office supplies are most likely sold at cheaper prices per unit of product, hence its popularity among customers.
-* Office supplies could also be purchased and used much more frequently especially if there is a presence of a working class customer base.
+* Office supplies could also be purchased and used much more frequently especially if there is a presence of a large working class customer base.
+* Office supplies could also be sold at lower unit prices, therefore, the presence of a large customer base would cause little to no significant increase in sales revenue.
+* In addition to smaller unit prices, there could also be a case of customers buying exactly what they need. In most cases, customers don't need many Office Supplies especially if they're not necessities. Therfore, the average order value as well as revenue remain low. 
 
 #### Recommendations:
 The following recommendations can be adopted to maintain and boost Technology's performance as well as the performance of other product categories;
-* Technology's revenue is mostly driven by high unit prices, therefore, while the idea of discounts is recommended, care should be taken, especially on high-value Technology products.
-* To improve Technology's revenue performance, 
+* Technology's revenue is mostly driven by high unit prices, therefore, while the idea of discounts is recommended, care should be taken, especially on high-value Technology products, so as not to affect profit margin.
+* To improve Technology's revenue performance, special offers in bundles among Technology product sub-category e.g accessories and phones should be included.
+* Unit sales price for Office Supplies can be increased **slighly** so as to improve revenue performance, however, if possible, quality should also be increased. 
+* Bulk purchase discounts can also be introduced **strategically** in order to increase the average order value of certain office supplies.
+* To retain customers, benefits and rewards could be attached to frequent purchases e.g free shipping, exclusive & early access to new products.
+* Focus on retention strategies. For example, convenience, fast-delivery and budget-friendly bundles across various segments.
+* Online questionnaires and surveys to hear directly from customers regarding delivery services, product quality and in order areas of concern.
 
+### 5.3 Customer Segment Performance:
+Analyses show that Consumer segment happens to be the most successful segment in terms of revenue and also contains the largest number of customers. Home Office segment is the least performing segment in revenue and in total number of customers. 
+#### Findings
+* Higher purchase frequency in the Consumer segment across various product categories could be a factor contributing to an increase in revenue.
+* There is also less specialized purchase in the Consumer segment, meaning that that customers in this segment have the liberty of purchasing from any product category which explain the reason stated above.
+* Customers in the Consumer segment are also most likely to make unplanned purchases, most of these purchases happen frequently.
+* The Home Office segment probably buys product only when necessary and buys for small or perrsonal business. This causes a low average order value.
+* There could also be less frequent purchases by the Customers in the Home Segment as well as more careful and strategic, specialized purchases.
+
+#### Recommendations:
+The following recommendations could be adopted to improve revenue for both Consumer and Home Office segments and to retain and increase customers for both segments respectively;
+* Reward long term customers with rewards and benefits like free delivery and shipping after 5 orders from a particular category, benefits expire if inactive. This increases engagement. 
+* Create Home Office-specific bundles like a home-office starter kit, at affordable prices.
 
 ## 6. Conclusion
+This project examined sales performance using the Superstore dataset to understand the factors driving revenue differences across regions, product categories, and customer segments between 2015 and 2018. Through exploratory data analysis, the study revealed that the West and East regions consistently outperform others, Technology is the leading revenue-generating category despite a smaller customer base, and the Consumer segment dominates overall sales due to higher purchase frequency and broader product engagement.
+
+Beyond descriptive analysis, the project extended into predictive modeling by forecasting sales for 2019–2020, providing a forward-looking perspective to support planning and strategic decision-making. The findings highlight that revenue performance is influenced not only by customer volume, but also by product mix, pricing dynamics, purchasing behavior, and regional demand patterns.
+
+Overall, this analysis demonstrates how data-driven insights can be used to move from observation to action, informing targeted strategies for revenue growth, customer retention, and operational optimization across multiple business dimensions.
