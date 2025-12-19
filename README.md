@@ -4,7 +4,7 @@
 
 This project explores retail sales performance using the Superstore dataset, focusing on identifying the key factors that drive sales across different regions, customer segments, and product categories. By analyzing four years of sales data (2015–2018), the study aims to uncover patterns in customer purchasing behavior, regional market differences, and category-specific preferences. Understanding these variations is essential for developing data-driven strategies that can improve revenue, optimize product offerings, and strengthen decision-making. 
 
-In addition to using Python and Excel to conduct exploratory and descriptive analysis, this project also includes a time series forecasting component, where historical sales revenue patterns are used to predict sales revenue for the next 24 months (2019–2020). The forecasting analysis aims to provide insights into expected future sales trends and support data-driven planning and decision-making.
+In addition to using Python and Excel to conduct exploratory and descriptive analysis, this project also includes a time series forecasting component, where historical sales revenue patterns are used to estimate sales revenue under historical conditions for the next 24 months (2019–2020). The forecasting analysis aims to provide insights into expected future sales trends and support data-driven planning and decision-making.
 
 ### 1.1 Objectives
 The primary objective of this project is to analyze sales performance across regions, customer segments, product categories, and sub-categories to understand:
@@ -217,6 +217,11 @@ Analyses show that Consumer segment happens to be the most successful segment in
 The following recommendations could be adopted to improve revenue for both Consumer and Home Office segments and to retain and increase customers for both segments respectively;
 * Reward long term customers with rewards and benefits like free delivery and shipping after 5 orders from a particular category, benefits expire if inactive. This increases engagement. 
 * Create Home Office-specific bundles like a home-office starter kit, at affordable prices.
+
+### Sales Forecasting Approach and Assumptions:
+Sales for 2019–2020 were forecasted using a machine-learning–based time series approach. Historical sales data (2015–2018) were aggregated at a monthly level, and lag features were created to capture temporal dependencies, trends, and seasonality. A Random Forest regression model was trained using a time-aware train–test split to prevent data leakage and evaluated using RMSE.
+
+Forecasts were generated recursively over a 24-month horizon and represent baseline projections under the assumption that historical sales patterns and customer behavior remain consistent. As with most multi-step forecasts, short-term estimates are expected to be more reliable than long-term projections. The forecasts are intended to support planning and strategic decision-making rather than provide exact future values.
 
 ## 6. Conclusion
 This project examined sales performance using the Superstore dataset to understand the factors driving revenue differences across regions, product categories, and customer segments between 2015 and 2018. Through exploratory data analysis, the study revealed that the West and East regions consistently outperform others, Technology is the leading revenue-generating category despite a smaller customer base, and the Consumer segment dominates overall sales due to higher purchase frequency and broader product engagement.
