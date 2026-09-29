@@ -239,7 +239,7 @@ Sales for 2019–2020 were forecasted using a machine-learning–based time seri
 Forecasts were generated recursively over a 24-month horizon and represent baseline projections under the assumption that historical sales patterns and customer behaviour remain consistent. As with most multi-step forecasts, short-term estimates are expected to be more reliable than long-term projections. The forecasts are intended to support planning and strategic decision-making rather than provide exact future values.
 
 
-<img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/c4cb11d4-4734-47e5-a9b3-8ae85c61e1c8" />   
+<img width="450" height="230" alt="image" src="https://github.com/user-attachments/assets/c4cb11d4-4734-47e5-a9b3-8ae85c61e1c8" />   
 
 
 ## Conclusion
