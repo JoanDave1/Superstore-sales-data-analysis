@@ -1,25 +1,42 @@
 # Superstore-sales-data-analysis
 
-## 1. Introduction
+## Project Overview
 
-This project explores retail sales performance using the Superstore dataset, focusing on identifying the key factors that drive sales across different regions, customer segments, and product categories. By analyzing four years of sales data (2015–2018), the study aims to uncover patterns in customer purchasing behavior, regional market differences, and category-specific preferences. Understanding these variations is essential for developing data-driven strategies that can improve revenue, optimize product offerings, and strengthen decision-making. 
+This project analyzes historical retail sales data to understand sales performance, regional trends, product category performance, customer distribution, and monthly sales patterns.
 
-In addition to using Python and Excel to conduct exploratory and descriptive analysis, this project also includes a time series forecasting component, where historical sales revenue patterns are used to estimate sales revenue under historical conditions for the next 24 months (2019–2020). The forecasting analysis aims to provide insights into expected future sales trends and support data-driven planning and decision-making.
+The project goes beyond descriptive analysis by applying machine learning to forecast sales for the next 24 months. A Random Forest Regression model was trained using historical monthly sales and lag-based time-series features to provide a forward-looking view of potential sales demand.
 
-### 1.1 Objectives
-The primary objective of this project is to analyze sales performance across regions, customer segments, product categories, and sub-categories to understand:
+The objective was to demonstrate how data analytics and machine learning can be combined to support sales planning, demand forecasting, inventory decisions, and business strategy.
 
-* Why certain regions generate more revenue than others
+## Business Problem
 
-* Which customer segments contribute the most to overall sales
+A retail business has access to historical sales data but needs to turn that data into actionable information. Management needs answers to questions such as:
 
-* Which product categories and sub-categories perform best
+* Which regions generate the most sales?
+* How does sales performance change from year to year?
+* Which product categories generate the most revenue?
+* Which sub-categories are the strongest performers?
+* How are customers distributed across regions?
+* What does the monthly sales trend look like?
+* Can historical sales patterns be used to estimate future sales?
 
-* Why specific categories are preferred in certain regions or segments
+Without this analysis, decision-makers may have difficulty identifying high-performing areas and planning for future demand.
 
-Ultimately, the goal is to identify the key factors influencing purchasing behavior and provide actionable recommendations that can improve revenue, optimize product distribution, and support strategic business decisions.
+## Project Objectives
 
-## 2. Data Overview and Description
+The analysis was designed to:
+
+* Clean and validate the sales dataset.
+* Analyze sales performance across regions.
+* Examine yearly sales trends.
+* Compare product category and sub-category performance.
+* Analyze customer distribution across regions and categories.
+* Visualize monthly and yearly sales patterns.
+* Build a machine learning model for sales forecasting.
+* Forecast sales for the next 24 months.
+* Translate the analysis into practical business recommendations.
+
+## Data Overview and Description
 The dataset contains transactional sales records from 2015 to 2018, covering multiple dimensions of retail operations. Each row in the dataset represents an individual order with details such as:
 
 * Order Date – When the transaction occurred
@@ -34,25 +51,23 @@ The dataset contains transactional sales records from 2015 to 2018, covering mul
 
 * Sales Revenue – Total sales value generated per order
 
-These fields provide a comprehensive view of customer behavior, product performance, and geographic market differences. The dataset is clean, structured, and suitable for time-series, categorical, and segmentation analysis.
+These fields provide a comprehensive view of customer behaviour, product performance, and geographic market differences. The dataset is clean, structured, and suitable for time-series, categorical, and segmentation analysis.
 
-## 3. Data Cleaning and Preparation
-Before analysis, the dataset was reviewed to ensure data quality and consistency. Although the Superstore dataset was largely clean and well-structured, several standard data validation and preparation steps were performed to confirm its suitability for analysis.
+## Data Cleaning and Preparation
+Before analysis, the dataset was reviewed to ensure data quality and consistency. Although the Superstore dataset was already clean and well-structured, several standard data validation and preparation steps were performed to confirm its suitability for analysis.
 
-### 3.1. Data Quality Checks
-
-#### Null value checks: 
+#### 1. Null value checks: 
 All relevant columns (order date, customer ID, region, customer segment, product category, sub-category, and sales revenue) were examined for missing values using Excel filters and Python (Pandas). No significant null values were found that would impact the analysis. Null values in postal code column were identified and corrected. 
 
 <img width="304" height="648" alt="image" src="https://github.com/user-attachments/assets/7f0decb4-8e76-4928-9113-f8ceff3c5db3" />
 
-#### Duplicate records: 
+#### 2. Duplicate records: 
 The dataset was checked for duplicate rows in both Excel and Python to ensure that each transaction was recorded only once. No duplicate entries were detected.
 
 Overall, the dataset required minimal cleaning, allowing the analysis to focus primarily on uncovering sales patterns and performance drivers rather than data quality issues.
 
-## 4. Exploratory Data Analysis
-### 4.1 Regional Sales Performance
+## Exploratory Data Analysis
+### 1. Regional Sales Performance
 The regional sales analysis reveals clear differences in revenue distribution across the Central, East, South, and West regions between 2015 and 2018. It also discloses regional sales across various product categories and customer segments. 
 
 Overall, the West region consistently outperforms all other regions, generating the highest total revenue of $710,219.68, followed by the East region, generating $669,518.73, both surpassing the average sales revenue across the four periods ($565,384). The Central and South regions lag behind, contributing about $400,000 and $300,000 respectively.
@@ -108,7 +123,7 @@ Home Office:
 <img width="327" height="175" alt="image" src="https://github.com/user-attachments/assets/6d089ef8-b1e0-442d-b6d5-03e8f29fbdcd" />
 
 
-### 4.2 Product Category Performance
+### 2. Product Category Performance
 The analysis of product categories shows clear differences in revenue contribution across the three main categories: Technology, Office Supplies, and Furniture. Technology products generate the highest revenue overall with a whooping $827,455.87. Furniture follows closely with $728,658.58. Office Supplies contributes the least revenue with a sum of $705,422.83. All of these are specified below.
 
 <img width="310" height="173" alt="image" src="https://github.com/user-attachments/assets/3424b886-5416-42a4-9a27-c589e10b9e72" />
@@ -135,7 +150,7 @@ Despite Technology being the best performing category, the office supplies categ
 
 <img width="322" height="247" alt="image" src="https://github.com/user-attachments/assets/fb3ff6b5-e061-4e84-8dc0-ffa1a4cf7919" />
 
-### 4.3 Customer Segment Performance
+### 3. Customer Segment Performance
 Customer segment analysis shows that the Consumer segment contributes the highest share of total revenue, followed by Corporate and Home Office customers.
 
 <img width="308" height="246" alt="image" src="https://github.com/user-attachments/assets/b383c3b1-94a8-45cf-b09e-b676f715e92e" />
@@ -167,8 +182,8 @@ A year-by-year breakdown shows that the Consumer segment generates the highest r
 <img width="192" height="81" alt="image" src="https://github.com/user-attachments/assets/db077568-cf1f-4454-b046-b0b057b48ac4" />
 
 
-## 5. Findings & Recommendations
-### 5.1. Regional Sales Performance:
+## Findings & Recommendations
+### 1. Regional Sales Performance:
 According to the analyses and visualizations above, between 2015 and 2018, the West region surpasses all other regions in terms of sales revenue. This could be due to a greater number of customers in the West compared to other regions. This is also evident in the year 2016 when East has a slightly higher population compared to West. 
 
 Across all regions, Technology also happens to be the most successful product category in terms of revenue, even generating greater revenue from the West region. Despite having the lowest number of customers compared to other product categories, Technology generates the most revenue and this could be linked to a significantly higher unit price for Technology, combined with the greater number of customers in the West. The West and East could also be urban areas where high-value products like Technology are greatly demanded. 
@@ -184,7 +199,7 @@ The following can be adopted to boost the performance of the South and Central r
 * Increase supply of high-value product sub-categories.
 * Encourage regional partnerships to expand customer base
 
-### 5.2. Product Category Performance: 
+### 2. Product Category Performance: 
 Analysis and visualization above disclose Technology to be the most successful product category overall despite having a lower customer base compared to other product categories. The product category "Office supplies", is revealed to have a much larger customer base compared to others but generating the least sales revenue. A number of reasons could cause this, some of which could include;
 * A significantly higher unit sales price for Technology products in comparison to other product categories.
 * Most customers might prioritize and invest more in Technology products, especially with the current need for tech in homes, offices and in day-to-day activities.
@@ -204,13 +219,13 @@ The following recommendations can be adopted to maintain and boost Technology's 
 * Focus on retention strategies. For example, convenience, fast-delivery and budget-friendly bundles across various segments.
 * Online questionnaires and surveys to hear directly from customers regarding delivery services, product quality and in order areas of concern.
 
-### 5.3 Customer Segment Performance:
+### 3. Customer Segment Performance:
 Analyses show that Consumer segment happens to be the most successful segment in terms of revenue and also contains the largest number of customers. Home Office segment is the least performing segment in revenue and in total number of customers. 
 #### Findings
 * Higher purchase frequency in the Consumer segment across various product categories could be a factor contributing to an increase in revenue.
 * There is also less specialized purchase in the Consumer segment, meaning that that customers in this segment have the liberty of purchasing from any product category which explain the reason stated above.
 * Customers in the Consumer segment are also most likely to make unplanned purchases, most of these purchases happen frequently.
-* The Home Office segment probably buys product only when necessary and buys for small or perrsonal business. This causes a low average order value.
+* The Home Office segment probably buys product only when necessary and buys for small or personal business. This causes a low average order value.
 * There could also be less frequent purchases by the Customers in the Home Segment as well as more careful and strategic, specialized purchases.
 
 #### Recommendations:
@@ -223,9 +238,31 @@ Sales for 2019–2020 were forecasted using a machine-learning–based time seri
 
 Forecasts were generated recursively over a 24-month horizon and represent baseline projections under the assumption that historical sales patterns and customer behavior remain consistent. As with most multi-step forecasts, short-term estimates are expected to be more reliable than long-term projections. The forecasts are intended to support planning and strategic decision-making rather than provide exact future values.
 
-## 6. Conclusion
+## Conclusion
 This project examined sales performance using the Superstore dataset to understand the factors driving revenue differences across regions, product categories, and customer segments between 2015 and 2018. Through exploratory data analysis, the study revealed that the West and East regions consistently outperform others, Technology is the leading revenue-generating category despite a smaller customer base, and the Consumer segment dominates overall sales due to higher purchase frequency and broader product engagement.
 
 Beyond descriptive analysis, the project extended into predictive modeling by forecasting sales for 2019–2020, providing a forward-looking perspective to support planning and strategic decision-making. The findings highlight that revenue performance is influenced not only by customer volume, but also by product mix, pricing dynamics, purchasing behavior, and regional demand patterns.
 
 Overall, this analysis demonstrates how data-driven insights can be used to move from observation to action, informing targeted strategies for revenue growth, customer retention, and operational optimization across multiple business dimensions.
+
+## Tools used
+
+#### 1. Excel for Business Analysis & Dashboard
+* Pivot Tables
+* Sales summaries
+* Regional/category analysis
+* Interactive dashboard
+* Business KPIs and visualizations
+
+#### Python 
+* Data cleaning
+* EDA
+* Trend analysis
+* Customer/category/region analysis
+* Visualizations
+
+#### Machine Learning for Forecasting
+* Monthly aggregation
+* Random Forest Regression
+* Model evaluation
+* 24-month sales forecast
