@@ -247,7 +247,7 @@ Overall, this analysis demonstrates how data-driven insights can be used to move
 
 ## Tools used
 
-#### 1. Excel for Business Analysis & Dashboard
+#### Excel for Business Analysis & Dashboard
 * Pivot Tables
 * Sales summaries
 * Regional/category analysis
