@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project analyzes historical retail sales data to understand sales performance, regional trends, product category performance, customer distribution, and monthly sales patterns.
+This project analyzes historical retail sales data form 2015-2018 to understand sales performance, regional trends, product category performance, customer distribution, and monthly sales patterns.
 
 The project goes beyond descriptive analysis by applying machine learning to forecast sales for the next 24 months. A Random Forest Regression model was trained using historical monthly sales and lag-based time-series features to provide a forward-looking view of potential sales demand.
 
