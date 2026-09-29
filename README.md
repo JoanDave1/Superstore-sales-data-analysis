@@ -236,7 +236,9 @@ The following recommendations could be adopted to improve revenue for both Consu
 ### Sales Forecasting Approach and Assumptions:
 Sales for 2019–2020 were forecasted using a machine-learning–based time series approach. Historical sales data (2015–2018) were aggregated at a monthly level, and lag features were created to capture temporal dependencies, trends, and seasonality. A Random Forest regression model was trained using a time-aware train–test split to prevent data leakage and evaluated using RMSE.
 
-Forecasts were generated recursively over a 24-month horizon and represent baseline projections under the assumption that historical sales patterns and customer behavior remain consistent. As with most multi-step forecasts, short-term estimates are expected to be more reliable than long-term projections. The forecasts are intended to support planning and strategic decision-making rather than provide exact future values.
+Forecasts were generated recursively over a 24-month horizon and represent baseline projections under the assumption that historical sales patterns and customer behaviour remain consistent. As with most multi-step forecasts, short-term estimates are expected to be more reliable than long-term projections. The forecasts are intended to support planning and strategic decision-making rather than provide exact future values.
+
+<img width="607" height="863" alt="image" src="https://github.com/user-attachments/assets/c4cb11d4-4734-47e5-a9b3-8ae85c61e1c8" />
 
 ## Conclusion
 This project examined sales performance using the Superstore dataset to understand the factors driving revenue differences across regions, product categories, and customer segments between 2015 and 2018. Through exploratory data analysis, the study revealed that the West and East regions consistently outperform others, Technology is the leading revenue-generating category despite a smaller customer base, and the Consumer segment dominates overall sales due to higher purchase frequency and broader product engagement.
